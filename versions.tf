@@ -12,7 +12,7 @@ terraform {
     organization = "blunatech-demo"
 
     workspaces {
-      name = "apf-provision-account"
+      name = "apf-client-example"
     }
   }
 }
