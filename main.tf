@@ -1,3 +1,7 @@
+locals {
+  aws_region = "us-east-1"
+}
+
 import {
   for_each = var.accounts_to_import
 
